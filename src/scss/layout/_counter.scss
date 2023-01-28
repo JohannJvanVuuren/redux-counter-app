@@ -1,0 +1,24 @@
+// Layout of the counter application as a whole
+.counter-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+
+  // Layout of the heading
+  h1 {
+    margin: 4rem;
+  }
+
+  // Layout of the buttons
+  button {
+    margin: 0 1rem;
+  }
+
+  .counter {
+    display: flex;
+    align-items: center;
+  }
+
+}

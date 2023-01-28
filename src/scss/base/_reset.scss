@@ -1,0 +1,18 @@
+// Global resets.
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// Setting base font size: 1 rem = 10px for ease of use.
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #333;
+  font-family: "Lato", Arial, sans-serif;
+}

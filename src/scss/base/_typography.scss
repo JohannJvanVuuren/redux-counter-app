@@ -1,0 +1,31 @@
+.counter-app {
+   h1 {
+     font-weight: 900;
+     text-transform: uppercase;
+     word-spacing: 1rem;
+     font-size: 5rem;
+     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+   }
+
+  button {
+    border: none;
+    padding: 1rem;
+    font-size: 3rem;
+  }
+
+    span {
+      color: aliceblue;
+      font-size: 7rem;
+      padding-top: 1rem;
+    }
+
+  .btn-increment {
+    background-color: green;
+    color: silver;
+  }
+
+  .btn-decrement {
+    background-color: red;
+    color: silver;
+  }
+}
